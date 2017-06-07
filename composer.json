@@ -1,0 +1,29 @@
+{
+    "name": "ekkinox/kata-data-munging",
+    "description": "Code kata - Data Munging",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan VUILLEMIN",
+            "email": "ekkinox@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekkinox\\KataDataMunging\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ekkinox\\KataDataMunging\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
